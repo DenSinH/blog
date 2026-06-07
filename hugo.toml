@@ -1,0 +1,11 @@
+baseURL = 'https://blog.dennishilhorst.nl/'
+locale = 'nl-nl'
+title = 'A blog by Dennis Hilhorst'
+theme = 'stack'
+metaDataFormat = "yaml"
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
