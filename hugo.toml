@@ -5,7 +5,13 @@ theme = 'stack'
 metaDataFormat = "yaml"
 
 [[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
+identifier = "homelab-journey"
+name = "Homelab Journey"
+url = "/homelab-journey/"
+weight = 10
+
+[[menu.main]]
+identifier = "packing-list"
+name = "Packing List"
+url = "/packing-list/"
 weight = 10
