@@ -1,0 +1,15 @@
+services:
+  blog:
+    build: .
+    restart: unless-stopped
+    expose:
+    - 80
+    # ports:
+    # - 80:80
+
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.blog-web.rule=Host(`blog.dennishilhorst.nl`)"
+      - "traefik.http.routers.blog-web.entrypoints=websecure"
+      - "traefik.http.routers.blog-web.tls.certresolver=myresolver"
+      - "traefik.http.services.blog-web.loadbalancer.server.port=80"
