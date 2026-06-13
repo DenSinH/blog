@@ -140,13 +140,10 @@ Before going to Oslo, I spent some time trying to join WhatsApp groups of intern
 #### Driving around
 
 ![](images/IMG20220827175024-1.jpg)
-
 ![](images/IMG_20220827_151649-1.jpg)
-
 ![](images/IMG20220827152404-1.jpg)
 
 ![](images/IMG20220827153507-1.jpg)
-
 ![](images/IMG20220827174229-1.jpg)
 
 Even just driving around the Lofoten Islands was amazing. The weather was not as sunny as one might hope it to be, but the views were still amazing.
@@ -156,9 +153,7 @@ Even just driving around the Lofoten Islands was amazing. The weather was not as
 <figure>
 
 ![](images/IMG20220828142218.jpg)
-
 ![](images/IMG20220828120537.jpg)
-
 ![](images/IMG20220828122823.jpg)
 
 <figure>
@@ -182,7 +177,6 @@ This is a very popular hike, well actually, more like a very popular staircase. 
 #### Hauklandstranda
 
 ![](images/IMG20220828174435-1.jpg)
-
 ![](images/IMG20220828175150-1.jpg)
 
 We briefly went to Hauklandstranda in the evening. There is a hike there up the hill next to the beach, which is supposedly very beautiful, but due to the time we did not do this hike.
@@ -190,32 +184,27 @@ We briefly went to Hauklandstranda in the evening. There is a hike there up the 
 #### Henningsvær
 
 ![](images/IMG20220829114304.jpg)
-
 ![](images/IMG_2703.jpg)
 
 ![](images/IMG20220829103415.jpg)
-
 ![](images/IMG20220829104450.jpg)
-
 ![](images/IMG20220829113653.jpg)
 
 A small town in the Lofoten islands. I am particularly proud of the picture on the bottom left. This town is very well known for its oddly located soccer field:
 
 ![](images/IMG20220829140947.jpg)
-
 ![](images/20220829_140056.jpg)
 
 #### Hoven
 
 ![](images/IMG20220829182203-1.jpg)
-
-![](images/20220829_181343.jpg)
+![](images/20220829_181343-scaled.jpg)
 
 That evening, we hiked up the Hoven hill. After being surpassed by multiple elderly trail runners, we got to the peak, with a small cliff running through it. We even saw some predatory birds fighting in the sky!
 
 #### Kongstinden
 
-![](images/IMG_20220830_124008.jpg)
+![](images/IMG_20220830_124008-scaled.jpg)
 
 ![](images/IMG20220830121838-1.jpg)
 
@@ -224,9 +213,7 @@ On the last day, we hiked up Kongstinden near Svolvaer. Can you spot me in the l
 ### Trolltunga
 
 ![](images/IMG20220910085438.jpg)
-
 ![](images/IMG20220910143643.jpg)
-
 ![](images/IMG_2773.jpg)
 
 This was definitely the longest hike I did during my time in Norway. We hiked 27km total, starting from P2 (the larger parking space that is a few kilometers down from the hike start). We tried to start early (at 6am), which is before the first shuttle buses go up from P2 to the hike start. This means we had to hike up 3km along a steep road, which took so long that we were still surpassed by the first shuttle bus. So for anyone planning to do this hike: if you want to start early, _reserve a spot on P3_, and otherwise just take a (but preferably the first) shuttle bus up from P2. Of course, we took some pictures at the most popular viewpoint of this hike: the Trolltunga rock, sticking out of the mountain over a few hundred meter drop.
@@ -236,10 +223,9 @@ This was definitely the longest hike I did during my time in Norway. We hiked 27
 ### Kjeragbolten
 
 ![](images/IMG20220930135615-1.jpg)
-
 ![](images/IMG20220930150410-1.jpg)
 
-![](images/IMG_5784.jpg)
+![](images/IMG_5784-scaled.jpg)
 
 Another tough hike. This hike takes you over 3 steep hills, leading into a long plateau. We started the hike quite late, and the weather was not great, but we were alone at the main viewpoint! This is a rock sticking between two ledges, suspended at a height of almost 1km above the ground. Some people are brave enough to stand on it, but after a strong gust of wind when trying to cross the narrow ledge onto the boulder, I figured I would just be safe and sit down.
 
@@ -248,7 +234,6 @@ Another tough hike. This hike takes you over 3 steep hills, leading into a long 
 ![](images/IMG20221002082418-1.jpg)
 
 ![](images/IMG20221002080105-1.jpg)
-
 ![](images/AB6C88A3-4DE1-4B81-A26C-DF542400246E-1.jpeg)
 
 Another very popular hike. We did this hike at the end of the hiking season, and we got up at 4:30AM, starting the hike at about 6AM, just to arrive at the viewpoint at sunrise. This trick worked, we hiked through the dark and the rain, and arrived at the viewpoint at 7AM, having the rock to our own for almost an hour!
@@ -256,13 +241,10 @@ Another very popular hike. We did this hike at the end of the hiking season, and
 ### Besseggen
 
 ![](images/IMG20221008102832.jpg)
-
 ![](images/IMG20221008092944.jpg)
 
 ![](images/IMG20221008091519.jpg)
-
 ![](images/IMG20221008104322.jpg)
-
 ![](images/IMG20221008103324.jpg)
 
 Another very popular, but very beautiful hike! You have to take a ferry to get to the start of the hike, and then hike over a mountain ridge, back to the ferry port. We took the very last ferry of the season, and had beautiful autumn colors and snowy peaks. The hike is most well known for having to climb a narrow ledge ("egg" in Norwegian), next to a steep drop:
@@ -272,9 +254,7 @@ Another very popular, but very beautiful hike! You have to take a ferry to get t
 ### Tromsø
 
 ![](images/IMG20221216212416.jpg)
-
 ![](images/IMG20221218120229.jpg)
-
 ![](images/NorthernLights2.jpeg)
 
 "The capital of the north". I visited right before going home before Christmas. I was lucky enough to see very bright northern lights on our last night there, though the nature around Tromsø is very beautiful by itself.
