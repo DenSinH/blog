@@ -1,7 +1,6 @@
----
-title: "Packing List"
-date: 2025-10-27
----
+______________________________________________________________________
+
+## title: "Packing List" date: 2025-10-27
 
 _Gebaseerd op de [ANWB vakantie paklijst](https://www.anwb.nl/vakantie/reisvoorbereiding/paklijst)_
 
@@ -85,3 +84,40 @@ _Gebaseerd op de [ANWB vakantie paklijst](https://www.anwb.nl/vakantie/reisvoorb
 - [ ] Skihelm
 - [ ] Skijas
 - [ ] Skibroek
+
+<style>
+/* Strike through completed items */
+li:has(input[type="checkbox"]:checked) {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Make whole row feel clickable */
+li {
+  cursor: pointer;
+  user-select: none;
+}
+</style>
+
+<script>
+// ensure checklist resets on load
+window.addEventListener("load", () => {
+  document.querySelectorAll("input[type='checkbox']").forEach(cb => {
+    cb.checked = cb.defaultChecked;
+  });
+});
+
+document.addEventListener("click", (e) => {
+  const li = e.target.closest("li");
+  if (!li) return;
+
+  const checkbox = li.querySelector("input[type='checkbox']");
+  if (!checkbox) return;
+
+  // Let native checkbox clicks behave normally
+  if (e.target === checkbox) return;
+
+  checkbox.checked = !checkbox.checked;
+  checkbox.dispatchEvent(new Event("change"));
+});
+</script>

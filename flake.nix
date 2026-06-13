@@ -19,6 +19,7 @@
           hugo
           git
           wp2md
+          mdformat
         ];
       };
     };

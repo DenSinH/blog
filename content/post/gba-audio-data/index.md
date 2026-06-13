@@ -4,7 +4,7 @@ date: 2024-03-23
 categories: 
   - "gba"
   - "programming"
-# image: "images/extractor-zelda-8.png"
+image: "images/extractor-zelda-8.webp"
 ---
 
 \[latexpage\]
@@ -632,7 +632,7 @@ So what are some other interesting purposes for all this information? Well, one 
 
 Another application is of course audio extraction. As mentioned above, a game's _songtable_ (the main array of songheader pointers) may be found with a byte pattern, and used to extract data like I did in [my GBA audio extractor](https://github.com/DenSinH/gba-audio-extractor), see [mp2k\_driver.cpp](https://github.com/DenSinH/gba-audio-extractor/blob/master/src/extractor/mp2k_driver.cpp):
 
-![](images/extractor-zelda-8-1024x600.png)
+![](images/extractor-zelda-8.webp)
 
 ## Final note
 

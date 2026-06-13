@@ -4,6 +4,9 @@ title = 'A blog by Dennis Hilhorst'
 theme = 'stack'
 metaDataFormat = "yaml"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [[menu.main]]
 identifier = "homelab-journey"
 name = "Homelab Journey"
