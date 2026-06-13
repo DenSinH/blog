@@ -19,7 +19,8 @@
           hugo
           git
           wp2md
-          mdformat
+          # for checking image type with file path/to/image.png
+          file
         ];
       };
     };
