@@ -2,6 +2,8 @@
 title: "Homelab - Setting up a grafana kiosk"
 date: 2026-01-02
 image: "images/kiosk.webp"
+categories: 
+  - "homelabbing"
 ---
 
 I massively upgraded my homelab's rack, and wanted to show a grafana dashboard on an external display. My first attempts were to use a DisplayLink USB -> HDMI adapter to try and run the kiosk from a VM, but sadly I could not get it to work after many hours of tinkering. Instead, I opted to just use an X session with openbox on the proxmox host itself to show the dashboard. The display I am using is a ["Wisecoco 7.84 inch 1280x400 IPS" I got off AliExpress](https://nl.aliexpress.com/item/1005005571198404.html). I mostly got this setup through ChatGPT and some fiddling.
