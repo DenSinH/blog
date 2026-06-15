@@ -207,3 +207,36 @@ systemctl daemon-reload
 systemctl enable dashboard.service
 systemctl start dashboard.service
 ```
+
+## Hiding the Grafana header / footer
+
+By default, public Grafana dashboards have a header and a footer. These can be removed by setting 
+
+```ini
+disable_sanitize_html	= true
+```
+in the Grafana ini file, and creating a HTML-mode text node with the following contents:
+```html
+<!--
+Idea from
+
+Source - https://stackoverflow.com/a/76558463
+Posted by pba, modified by community. See post 'Timeline' for change history
+Retrieved 2026-06-15, License - CC BY-SA 4.0
+-->
+
+<style type="text/css">
+[data-testid="public-dashboard-footer"] {
+  display: none;
+}
+
+[data-testid="public-dashboard-scene-page"] > *:first-child {
+  display: none;
+}
+
+.css-kuoxoh-panel-content div {
+  min-height: 16px !important;
+}
+</style>
+```
+You can remove the title of the node, set the background to transparent, and then make it a 1x1 node and put it somewhere on your dashboard.
