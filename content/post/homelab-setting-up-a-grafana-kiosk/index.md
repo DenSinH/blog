@@ -68,7 +68,7 @@ firefox-esr \
     --class GrafanaDashboard \
     -P grafana \
     --no-remote \
-    "http://192.168.50.34:3000/d/advzc6f/kiosk?kiosk&_dash.hideTimePicker=true&_dash.hideVariables=true" &
+    "http://192.168.50.34:3000/d/advzc6f/kiosk?kiosk&_dash.hideTimePicker=true&_dash.hideVariables=true&hideLogo=true" &
 
 kitty --title "proxmox3.home" --start-as fullscreen &
 
