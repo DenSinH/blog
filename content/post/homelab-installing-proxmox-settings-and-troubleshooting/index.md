@@ -3,6 +3,7 @@ title: "Homelab - Installing Proxmox, settings and troubleshooting"
 date: 2025-10-26
 categories: 
   - "homelabbing"
+image: "images/logo.png"
 ---
 
 My homelab runs on Proxmox, which was easy to set up, is very easy to work with, but gave me some trouble sometimes nontheless. I wanted to just leave this here for future reference, or it may be useful to others.
