@@ -6,9 +6,8 @@ nix develop
 hugo server -D
 ```
 
-To run the docker compose locally, don't forget to add
-```yaml
-ports:
-- 80:80
+To create a new post:
+```bash
+# nix develop
+hugo new content content/posts/<my-post-title>
 ```
-to the `docker-compose.yml`.
