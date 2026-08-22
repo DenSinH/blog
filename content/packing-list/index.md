@@ -1,6 +1,6 @@
-______________________________________________________________________
-
-## Packing List
+---
+title: "Packing List"
+---
 
 _Gebaseerd op de [ANWB vakantie paklijst](https://www.anwb.nl/vakantie/reisvoorbereiding/paklijst)_
 
