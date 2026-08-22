@@ -1,6 +1,6 @@
 ______________________________________________________________________
 
-## title: "Packing List" date: 2025-10-27
+## Packing List
 
 _Gebaseerd op de [ANWB vakantie paklijst](https://www.anwb.nl/vakantie/reisvoorbereiding/paklijst)_
 
@@ -46,6 +46,7 @@ _Gebaseerd op de [ANWB vakantie paklijst](https://www.anwb.nl/vakantie/reisvoorb
 - [ ] Ondergoed
 - [ ] Sokken
 - [ ] Zwarte tshirts
+- [ ] Slaapshirt
 - [ ] Truien
 - [ ] Broeken
 - [ ] T-shirts
@@ -59,6 +60,7 @@ _Gebaseerd op de [ANWB vakantie paklijst](https://www.anwb.nl/vakantie/reisvoorb
 - [ ] Waterfles
 - [ ] Winterjas / Regenjas
 - [ ] Rugzak
+- [ ] Plastic tas voor was
 
 #### Onderweg
 
