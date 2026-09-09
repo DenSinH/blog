@@ -7,7 +7,7 @@ I wanted to write a little bit about my homelabbing adventures, so here we go! T
 
 I might update this page as I add more hardware.
 
-### Current hardware (02-11-2025)
+### Current hardware
 
 | Component | Type | Comment |
 | --- | --- | --- |
@@ -37,7 +37,7 @@ I might update this page as I add more hardware.
     - **`192.168.50.12`** Proxmox node 2 (Lenovo M710q)
     - **`192.168.50.13`** Proxmox node 3 (Lenovo M710q)
     - **`192.168.50.18`** Proxmox Datacenter Manager VM
-    - **`192.168.50.19`** Proxmox Backup Server (Lenovo M920q)
+    - **`192.168.50.19`** Proxmox Backup Server (Lenovo M910q)
 
   - **`192.168.50.20-29`** Network storage, currently:
     - **`192.168.50.20`** HP MicroServer Gen 8 (TrueNAS) Port 0
