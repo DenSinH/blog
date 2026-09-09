@@ -53,9 +53,16 @@ I read a lot online that Proxmox can really wear out your SSD quickly if you do 
 
 - Mount `/tmp` to a ramdisk by adding the following to `/etc/fstab` and run `mount -a` to create a 1GB ramdisk for `/tmp` which only uses up RAM as it is being filled. You can check if it worked by running `df -h /tmp`
 
-```
-tmpfs /tmp tmpfs defaults,noatime,nosuid,nodev,mode=1777,size=1G 0 0
-```
+  ```
+  tmpfs /tmp tmpfs defaults,noatime,nosuid,nodev,mode=1777,size=1G 0 0
+  ```
+
+- Setting `noatime` on `/dev/pve/root /`. Your `/etc/fstab` entry for `/` should look like
+  ```
+  /dev/pve/root / ext4 errors=remount-ro,noatime 0 1
+  ```
+
+- Setting `noatime` on all your LXCs / VMs.
 
 ### Helper scripts
 
