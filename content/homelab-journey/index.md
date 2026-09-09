@@ -11,92 +11,72 @@ I might update this page as I add more hardware.
 
 | Component | Type | Comment |
 | --- | --- | --- |
-| Routers | ASUS RT-AX57 (AX3000)   ASUS RT-AX55 (BO3100) | Works well, nice GUI |
-| Switch | TP-Link LiteWave 8-Port (LS108G) |  |
+| Router | HP T630 | NixOS based |
+| Access Points | ASUS RT-AX57 (AX3000)   ASUS RT-AX55 (BO3100) | AP mode |
+| Switch | TP-Link LiteWave 8-Port (LS108G) | Unmanaged  |
 | ZigBee Dongle | SONOFF ZigBee 3.0 USB Dongle Plus, TI CC2652P |  |
-| Proxmox Nodes | 3x Lenovo M710q   1x MILLSE G2 Pro Mini PC | i3 6100T, 16GB RAM, 256GB SSD   N150, 12GB RAM, 512GB SSD |
+| Proxmox Nodes | 2x Lenovo M710q / 1x MILLSE G2 Pro Mini PC | i3 6100T, 16GB RAM, 256GB SSD / N150, 12GB RAM, 512GB SSD |
+| PBS | Lenovo M910q | i3 7100T, 16GB RAM, 256GB SSD (NVMe) + 1TB SSD (SATA) |
 | NAS | HP MicroServer Gen 8 | Xeon E3-1260L, 16GB RAM, 128GB SSD, 2x 4TB HDD Mirror |
 
 ### General tips
 
 - Define fixed IP ranges for your DHCP server to remember them more easily. My setup:
-    - `**192.168.50.1**` The router
-    
-    - `**192.168.50.2-9**` Other networking devices / services, currently:
-        - `**192.168.50.2**` Pi hole LXC (master)
-        
-        - `**192.168.50.3**` Pi hole LXC (duplicate, synced with nebula-sync)
-        
-        - `**192.168.50.4**` Pi hole LXC (duplicate, synced with nebula-sync)
-        
-        - `**192.168.50.8**` Tailscale Subnet Router LXC
-        
-        - `**192.168.50.9**` Cloudflare tunnel LXC
-    
-    - `**192.168.50.10-19**` Proxmox nodes, currently:
-        - `**192.168.50.10**` _Decomissioned_ Proxmox node 0 (Intel NUC5i3RYH)
-        
-        - `**192.168.50.11**` Proxmox node 1 (Lenovo M710q)
-        
-        - `**192.168.50.12**` Proxmox node 2 (Lenovo M710q)
-        
-        - `**192.168.50.13**` Proxmox node 3 (Lenovo M710q)
-        
-        - `**192.168.50.18**` Proxmox Datacenter Manager VM
-        
-        - `**192.168.50.19**` _Reserved for future Proxmox Backup Server_
-    
-    - `**192.168.50.20-29**` Network storage, currently:
-        - `**192.168.50.20**` HP MicroServer Gen 8 (TrueNAS) Port 0
-        
-        - `**192.168.50.21**` HP MicroServer Gen 8 (TrueNAS) Port 1
-        
-        - `**192.168.50.22**` HP MicroServer Gen 8 iLO
-    
-    - `**192.168.50.30-39**` General services, currently:
-        - `**192.168.50.30**` VPS (Ubuntu Server VM)
-        
-        - `**192.168.50.31**` Home Assistant (HAOS VM)
-        
-        - `**192.168.50.32**` Firefly III LXC
-        
-        - `**192.168.50.33**` Actual Budget LXC
-        
-        - `**192.168.50.34**` Grafana LXC
-        
-        - `**192.168.50.35**` InfluxDB LXC
-        
-        - `**192.168.50.36**` Immich LXC
-        
-        - `**192.168.50.37**` Vaultwarden LXC
-        
-        - `**192.168.50.38**` NextCloud VM
-    
-    - `**192.168.50.40-49**` Media services
-        - `**192.168.50.40**` Jellyfin LXC
-        
-        - `**192.168.50.41**` Sonarr LXC
-        
-        - `**192.168.50.42**` Radarr LXC
-        
-        - `**192.168.50.43**` QBitTorrent LXC
-        
-        - `**192.168.50.44**` Prowlarr LXC
-        
-        - `**192.168.50.45**` FlareSolverr LXC (disabled)
-        
-        - `**192.168.50.46**` Byparr LXC
-        
-        - `**192.168.50.47**` Bazarr LXC
-    
-    - `**192.168.50.50-199**` DHCP
-        - Nebula-sync LXC (I don't really care for this to have a static IP)
-    
-    - `**192.168.50.200-254**` Other devices (smart devices, phone, laptop, ...)
+  - **`192.168.50.1`** The router (HP T630)
+
+  - **`192.168.50.2-9`** Other networking devices / services, currently:
+    - **`192.168.50.2`** Pi-hole LXC (master)
+    - **`192.168.50.3`** Pi-hole LXC (duplicate, synced with nebula-sync)
+    - **`192.168.50.4`** Pi-hole LXC (duplicate, synced with nebula-sync)
+    - **`192.168.50.8`** Tailscale Subnet Router LXC
+    - **`192.168.50.9`** Cloudflare Tunnel LXC
+
+  - **`192.168.50.10-19`** Proxmox nodes, currently:
+    - **`192.168.50.10`** *Decommissioned* Proxmox node 0 (Intel NUC5i3RYH)
+    - **`192.168.50.11`** Proxmox node 1 (Lenovo M710q)
+    - **`192.168.50.12`** Proxmox node 2 (Lenovo M710q)
+    - **`192.168.50.13`** Proxmox node 3 (Lenovo M710q)
+    - **`192.168.50.18`** Proxmox Datacenter Manager VM
+    - **`192.168.50.19`** Proxmox Backup Server (Lenovo M920q)
+
+  - **`192.168.50.20-29`** Network storage, currently:
+    - **`192.168.50.20`** HP MicroServer Gen 8 (TrueNAS) Port 0
+    - **`192.168.50.21`** HP MicroServer Gen 8 (TrueNAS) Port 1
+    - **`192.168.50.22`** HP MicroServer Gen 8 iLO
+
+  - **`192.168.50.30-49`** General services, currently:
+    - **`192.168.50.31`** Home Assistant (HAOS VM)
+    - **`192.168.50.32`** Firefly III LXC
+    - **`192.168.50.33`** Actual Budget LXC
+    - **`192.168.50.34`** Grafana / InfluxDB telemetry LXC
+    - **`192.168.50.35`** Gatus LXC (public status page)
+    - **`192.168.50.36`** Immich LXC
+    - **`192.168.50.37`** Vaultwarden LXC
+    - **`192.168.50.38`** Cookbook LXC
+    - **`192.168.50.39`** Blog LXC
+    - **`192.168.50.40`** Nixflix LXC (Jellyfin, *arr)
+    - **`192.168.50.41`** Dawarich LXC
+    - **`192.168.50.42`** Garage LXC (S3 storage)
+    - **`192.168.50.43`** BentoPDF LXC
+    - **`192.168.50.46`** Byparr LXC
+    - **`192.168.50.47`** Bazarr LXC
+  - **`192.168.50.60-99`** IOT devices (some blocked from WAN)
+  - **`192.168.50.100-199`** DHCP
+  - **`192.168.50.200-254`** Fixed IPs for known devices
+    - **`192.168.50.250`** ASUS RT-AX57 (AP)
+    - **`192.168.50.251`** ASUS RT-AX55 (AP)
 
 ## My Journey
 
 **This text is in reverse chronological order, so the latest version is at the top.**
+
+### PBS and NixOS
+
+I recently got another Lenovo Tiny, with an additional 1TB SSD to run PBS on. It turns out PBS is _so_ efficient that it doesn't really seem to fill up past 125GB for my homelab, but that's fine!
+What is even nicer is that I now [migrated my whole homelab to NixOS](../post/homelab-migrating-to-nixos/).
+This makes most backups kind of obsolete anyway, as many services don't even contain any (interesting) persistent data anyways!
+I guess it is nice to keep the backups around for instant recovery, as the process to set up a new LXC is still lengthier than just restoring, as well as it requiring less administration, but still!
+Even my router and NAS are NixOS based now!
 
 ### A proper rack
 
