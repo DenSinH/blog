@@ -207,6 +207,16 @@ systemctl enable dashboard.service
 systemctl start dashboard.service
 ```
 
+You can turn off the screen at night (between 23:00 and 7:00) by running
+```
+crontab -e
+```
+Add these two lines:
+```
+0 23 * * * DISPLAY=:0 /usr/bin/xset dpms force off
+0 7 * * * DISPLAY=:0 /usr/bin/xset dpms force on
+```
+
 ## Hiding the Grafana header / footer
 
 By default, public Grafana dashboards have a header and a footer. These can be removed by setting 
