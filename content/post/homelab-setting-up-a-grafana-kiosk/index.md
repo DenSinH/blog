@@ -55,6 +55,9 @@ xrandr \
   --output HDMI-2 --auto --rotate right \
   --output HDMI-3 --primary --auto --left-of HDMI-2 --mode 1920x1080
 
+# Dim the kiosk monitor to 80%
+xrandr --output HDMI-2 --brightness 0.8
+
 # Start window manager LAST and in foreground
 
 openbox-session &
