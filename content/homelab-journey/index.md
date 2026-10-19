@@ -11,7 +11,7 @@ I might update this page as I add more hardware.
 
 | Component | Type | Comment |
 | --- | --- | --- |
-| Router | HP T630 | NixOS based |
+| Router | HP T630 | AMD Embedded G-Series GX-420GI Radeon R7E, 8GB RAM, 32GB SSD, NixOS based |
 | Access Points | ASUS RT-AX57 (AX3000)   ASUS RT-AX55 (BO3100) | AP mode |
 | Switch | TP-Link LiteWave 8-Port (LS108G) | Unmanaged  |
 | ZigBee Dongle | SONOFF ZigBee 3.0 USB Dongle Plus, TI CC2652P |  |
