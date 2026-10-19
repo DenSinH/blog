@@ -61,7 +61,6 @@ openbox-session &
 sleep 4
 
 export MOZ_CRASHREPORTER_DISABLE=1
-export MOZ_DISABLE_CONTENT_SANDBOX=1
 
 firefox-esr \
     --kiosk \
