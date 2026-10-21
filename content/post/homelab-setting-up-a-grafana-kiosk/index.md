@@ -46,7 +46,10 @@ To launch the Grafana dashboard through firefox (and to open a terminal on your 
 set -e
 
 # Basic X settings
-xset -dpms
+xset s off
+xset s noblank
+xset +dpms
+xset dpms 0 0 0
 xset s off
 xset s noblank
 
