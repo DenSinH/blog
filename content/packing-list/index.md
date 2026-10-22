@@ -60,11 +60,13 @@ _Gebaseerd op de [ANWB vakantie paklijst](https://www.anwb.nl/vakantie/reisvoorb
 - [ ] Waterfles
 - [ ] Winterjas / Regenjas
 - [ ] Rugzak
+- [ ] Boodschappentas(sen)
 - [ ] Plastic tas voor was
 
 #### Onderweg
 
 - [ ] Koelbox + koelelementen
+- [ ] Controleer eisen land van bestemming
 
 #### Wandelen
 
