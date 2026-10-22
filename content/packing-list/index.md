@@ -110,6 +110,8 @@ _Gebaseerd op de [ANWB vakantie paklijst](https://www.anwb.nl/vakantie/reisvoorb
 - [ ] Uien / kruiden / kookspul
 - [ ] Fris / drank
 - [ ] Avondeten
+- [ ] Vuilniszakken
+- [ ] Wasmiddel
 
 <style>
 /* Strike through completed items */
