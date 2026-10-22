@@ -87,6 +87,30 @@ _Gebaseerd op de [ANWB vakantie paklijst](https://www.anwb.nl/vakantie/reisvoorb
 - [ ] Skijas
 - [ ] Skibroek
 
+### Aankomst
+
+#### Boodschappen
+
+- [ ] Toiletpapier
+- [ ] Keukenrol
+- [ ] Melk
+- [ ] Koffie / thee
+- [ ] Vaatwastabletten
+- [ ] Zeep
+- [ ] Yoghurt
+- [ ] Honing of muesli
+- [ ] Brood en beleg
+- [ ] Water(flessen)
+- [ ] Zakjes / folie voor brood
+- [ ] Bananen / fruit
+- [ ] Koek / mueslirepen
+- [ ] Nootjes
+- [ ] Snacks
+- [ ] Boter / olie
+- [ ] Uien / kruiden / kookspul
+- [ ] Fris / drank
+- [ ] Avondeten
+
 <style>
 /* Strike through completed items */
 li:has(input[type="checkbox"]:checked) {
